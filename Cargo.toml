@@ -1,0 +1,23 @@
+[package]
+name = "pingora-web"
+version = "0.1.0"
+edition = "2021"
+authors = ["Yuchen Wu <eaufavor@gmail.com>"]
+license = "Apache-2.0"
+description = "Pingora Web serve support"
+repository = "https://github.com/eaufavor/pingora-web"
+categories = ["web", "pingora"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pingora = "0"
+async-trait = "0"
+http = "1"
+once_cell = "1" 
+chrono = "0.4" 
+bytes = "1"
+log = "0"
+
+[dev-dependencies]
+env_logger = "0.9"
